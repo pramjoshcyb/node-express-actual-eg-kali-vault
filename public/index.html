@@ -42,7 +42,26 @@
         </script>
     <div id="display"> <!--this is where things get displayed-->
         <!--template will get rendered here for handlebars-->
-        <h1></h1>
+        <h1>Hello Welcome</h1>
+
+        <!-- allow search and sorting criteria to be set 
+        - dropdown (severity)
+        - input type (search)-->
+
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.."> <!--search label-->
+
+        <select>
+                <option value="low">Low</option> <!--dropdown to choose severity-->
+                <option value="medium">Medium</option>
+                <option value="critical">Critical</option>
+        </select>
+
+        <div>
+                <input type="range" id="cowbell" name="cowbell" 
+                       min="0" max="100" value="90" step="10">
+                <label for="cowbell">Cowbell</label> <!--FIXME: Pass in min and max timestamps to min and max and also the type and name-->
+        </div>
+        
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js" type="text/javascript"></script>
     <script src="index.js"></script>

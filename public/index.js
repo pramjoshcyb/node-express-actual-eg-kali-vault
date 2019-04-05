@@ -6,9 +6,10 @@ var template = Handlebars.compile(source); // let handlebars compile what it nee
 var context = {title: "My New Post", body: "This is my first post!"}; //passed in keys will get us the values
 
 // put the context (data) inside the template
-var html    = template(context); //copied out of handlebars js documentation
+//var html    = template(context); //copied out of handlebars js documentation
+// template below is what is inside the script in index.html 
 
-
+document.getElementById("display").innerHTML = template(context); //tell element that has id of display to change its inner html to template(context)
 /*
 const logs = [
     {
@@ -72,3 +73,4 @@ const logs = [
         timestamp:  1554431375
     }
 ]
+*/

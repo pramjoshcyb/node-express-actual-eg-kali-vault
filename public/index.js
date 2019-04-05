@@ -1,6 +1,6 @@
 const logs = [
     {
-        id:         1,
+        id:         1, //id, severity, reporttype and timestamp go in a table
         severity:   "low",
         reportType: "script",
         timestamp:  15243627

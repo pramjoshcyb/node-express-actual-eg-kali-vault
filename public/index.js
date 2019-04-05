@@ -1,3 +1,15 @@
+// this is our setup
+var source   = document.getElementById("entry-template").innerHTML; //gets the script element with ref id and innerhtml is the html element existing inside
+var template = Handlebars.compile(source); // let handlebars compile what it needs to 
+
+// this is our data in structured format of key and value pairs, key are what we pass through in index.html
+var context = {title: "My New Post", body: "This is my first post!"}; //passed in keys will get us the values
+
+// put the context (data) inside the template
+var html    = template(context); //copied out of handlebars js documentation
+
+
+/*
 const logs = [
     {
         id:         1, //id, severity, reporttype and timestamp go in a table

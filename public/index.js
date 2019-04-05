@@ -19,7 +19,7 @@ const context = { // data type is object of type key value pairs
             id:         1, //id, severity, reporttype and timestamp go in a table
             severity:   "low", // now we want to access items in array 
             reportType: "script",
-            timestamp:  15243627
+            timestamp:  15243627 // we want to loop through and get the data out of each log and represent in table
         },
         {
             id:         2,

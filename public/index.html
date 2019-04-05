@@ -10,12 +10,14 @@
     <script src="index.js"></script>
 </head>
 <body>
+        <script id="entry-template" type="text/x-handlebars-template"> <!--added handlebars from js-->
         <div class="entry"> <!--handlebars template-->
                 <h1>{{title}}</h1>
                 <div class="body">
                   {{body}}
                 </div>
         </div>
+        </script>
     <table style="width:100%; text-align: center;">
             <tr>
               <th>ID</th> <!--each log is a new row-->

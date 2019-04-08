@@ -11,38 +11,29 @@
 
 <body>
     <script id="entry-template" type="text/x-handlebars-template"> <!--added handlebars from js-->
-        <div class="entry"> <!--handlebars template--> <!--construction of template-->
-                <h1>{{title}}</h1> <!--we are interested in our table-->
-                <div class="body">
-                  {{body}}
-                </div>
-        </div>
-        <table style="width:100%; text-align: center;">
-                <tr>
-                  <th>ID</th> <!--each log is a new row-->
-                  <th>Severity</th> 
-                  <th>Report Type</th>
-                  <th>Timestamp</th>
-                </tr>
-                {{#each logs}} <!--loop through log array-->
-                <tr>
-                  <td>{{id}}</td> <!--curly braces is what to put in to pass through to handlebars-->
-                  <td>{{severity}}</td> 
-                  <td>{{reportType}}</td> <!-- each log create a new table row and add in table data and pass in appropriate part of log-->
-                  <td>{{timestamp}}</td> <!--table data-->
-                </tr>
-                {{/each}}
-                <tr>
-                  <td></td>
-                  <td></td> 
-                  <td></td> <!--this script sets up our template-->
-                  <td></td>
-                </tr>
-              </table>
+      <table style="width:100%; text-align: center;">
+        <tr>
+          <th>ID</th> <!--each log is a new row-->
+          <th>Severity</th> 
+          <th>Report Type</th>
+          <th>Timestamp</th>
+        </tr>
+        {{#each logs}} <!--loop through log array-->
+        <tr>
+          <td>{{id}}</td> <!--curly braces is what to put in to pass through to handlebars-->
+          <td>{{severity}}</td> 
+          <td>{{reportType}}</td> <!-- each log create a new table row and add in table data and pass in appropriate part of log-->
+          <td>{{timestamp}}</td> <!--table data-->
+        </tr>
+        {{/each}}
+        <tr>
+      </table>
+      
         </script>
     <div id="display"> <!--this is where things get displayed-->
         <!--template will get rendered here for handlebars-->
         <h1>Hello Welcome</h1>
+    </div>
 
         <!-- allow search and sorting criteria to be set 
         - dropdown (severity)
@@ -62,7 +53,6 @@
                 <label for="cowbell">Cowbell</label> <!--FIXME: Pass in min and max timestamps to min and max and also the type and name-->
         </div>
         
-    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js" type="text/javascript"></script>
     <script src="index.js"></script>
     <!--to load html before scripts is good practice-->

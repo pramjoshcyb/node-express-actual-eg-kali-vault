@@ -9,7 +9,7 @@ var template = Handlebars.compile(source); // let handlebars compile what it nee
 //var html    = template(context); //copied out of handlebars js documentation
 // template below is what is inside the script in index.html 
 
-document.getElementById("display").innerHTML = template(context); //tell element that has id of display to change its inner html to template(context)
+//document.getElementById("display").innerHTML = template(context); //tell element that has id of display to change its inner html to template(context)
 // web page itself is a document and we do a . to access by looking for element having id entry-template and then we get its inner html, meaning html inside the entry template
 const context = { // data type is object of type key value pairs
     //title: "My New Post", 
@@ -79,4 +79,4 @@ const context = { // data type is object of type key value pairs
     // this is they key for all of the logs below, key is logs and value is arrays
 };
 
-document.getElementById("display").innerHTML = template(context); // looking at doc and get element id which has display and look at its innerhtml and override and stick our template and pass in our data in template
+document.getElementById("display").innerHTML += template(context); // looking at doc and get element id which has display and look at its innerhtml and override and stick our template and pass in our data in template

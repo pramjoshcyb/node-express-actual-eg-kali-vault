@@ -92,7 +92,7 @@ const logCache = new Queue(); // creating a queue
 // adds a log object to the queue, the oldest logs are deleted and saved to a file 
 // after queue size goes above 1000
 function queueLog(log) {
-    
+
     logCache.add(log); // adds a log to queue
     while (logCache.length() > 1000) { // sends upto 1000 logs since browser knows
         const oldestLog = logCache.remove(); // takes the step at front of queue 
@@ -107,7 +107,8 @@ function queueLog(log) {
 app.post('/*', (req, res) => {
     console.log(req.body);
 
-    // handle the report in some way
+    // this is sent by the browser formatted as a CSP standard report
+    
     const report = req.body["csp-report"];
 
     const log = createLog(report); // adding the report here and now we need to store it

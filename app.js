@@ -6,6 +6,8 @@ const path = require('path');
 
 const app = express();
 
+const Queue = require('./queue'); // reading from file need to add from data structures folder
+
  // process.env.PORT lets the port be set by Heroku
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
@@ -87,9 +89,17 @@ function createLog(report) {
 
 const logCache = new Queue(); // creating a queue
 
+// adds a log object to the queue, the oldest logs are deleted and saved to a file 
+// after queue size goes above 1000
 function queueLog(log) {
-    logCache.add(log); // adds a log to queue
     
+    logCache.add(log); // adds a log to queue
+    while (logCache.length() > 1000) { // sends upto 1000 logs since browser knows
+        const oldestLog = logCache.remove(); // takes the step at front of queue 
+        console.error('Saving old logs to a file not implemented yet'); //reminds us when we hit queue to fix
+        
+    }
+
 
 }
 // route

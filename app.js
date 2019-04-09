@@ -60,7 +60,7 @@ let unique = 1;
 
 function createLog(report) {
     let id = unique;
-    unique++;
+    unique++; // creates report and returns a log object
 
     const violatedDirective = report["violated-directive"];
 

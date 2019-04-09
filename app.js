@@ -84,6 +84,14 @@ function createLog(report) {
     return newLog;
 
 }
+
+const logCache = new Queue(); // creating a queue
+
+function queueLog(log) {
+    logCache.add(log); // adds a log to queue
+    
+
+}
 // route
 // handles post requests to any url
 app.post('/*', (req, res) => {
@@ -92,7 +100,9 @@ app.post('/*', (req, res) => {
     // handle the report in some way
     const report = req.body["csp-report"];
 
-    createLog? sort of probably
+    const log = createLog(report); // adding the report here and now we need to store it
+
+    queueLog(log); // new function to write
 
     res.end();
     //res.send('hello world');

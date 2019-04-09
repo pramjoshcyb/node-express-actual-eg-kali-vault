@@ -108,7 +108,8 @@ app.post('/*', (req, res) => {
     console.log(req.body);
 
     // this is sent by the browser formatted as a CSP standard report
-    
+    // see https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP#Violation_report_syntax //check if you wrote the link correctly
+    // you can violate the CSP in browser and observe the network developer tools
     const report = req.body["csp-report"];
 
     const log = createLog(report); // adding the report here and now we need to store it

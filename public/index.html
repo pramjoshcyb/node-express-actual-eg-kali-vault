@@ -18,7 +18,7 @@
           <th>Report Type</th>
           <th>Timestamp</th>
         </tr>
-        {{#each logs}} <!--loop through log array-->
+        {{#each logs}} <!--loop through log array and look for id, severity, reportType and timestamp-->
         <tr>
           <td>{{id}}</td> <!--curly braces is what to put in to pass through to handlebars-->
           <td>{{severity}}</td> 

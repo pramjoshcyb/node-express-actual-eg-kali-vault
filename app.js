@@ -4,11 +4,54 @@ const bodyParser = require('body-parser');
     // core module, so doesn't need to be npm installed
 const path = require('path');
 
+const winston = require('winston'); //updated on 11/4/19 from 10/4/19 coding session
 const app = express();
+
+const fs = require('fs');
 
 const Queue = require('./queue'); // reading from file need to add from data structures folder
 
- // process.env.PORT lets the port be set by Heroku
+//const LOG_FILE_NAME = "log1.txt";
+
+const levels = { //updated on 11/4/19 from 10/4/19 coding session
+    HIGH: 0,
+    MODERATE: 1,
+    UNKNOWN: 2,
+};
+
+const myFormat = winston.format.printf((log) => { //updated on 11/4/19 from 10/4/19 coding session
+    return `${log.severity}: ${JSON.stringify(log, null, 4)}\n-------------n`
+});
+
+const logger = winston.createLogger({ //updated on 11/4/19 from 10/4/19 coding session
+    level: 'UNKNOWN',
+    levels: levels,
+    format: winston.format.json(),
+    defaultMeta: { service: 'user-service'},
+    transports: [
+        //
+        // - Write to all the logs with level `info` and below to `combined.log`
+        // - Write all logs error (and below) to `error.log`.
+        //
+        new winston.transports.File({
+            filename: 'reports.log',
+            maxsize: 10000,
+            format: myFormat,
+        }),
+        new winston.transports.Console({
+            format: myFormat,
+        }),
+    ]
+});
+
+
+
+const logWriteStream = fs.createWriteStream(LOG_FILE_NAME, { flags: 'a', }); //writing to a file, resource: nodejs.org
+// FIXABOVE AS it opens before the server finishes starting up
+// process.env.PORT lets the port be set by Heroku
+
+//logWriteSTream.on('open', ) //opens after server 
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server running on ${port}`);
@@ -25,37 +68,12 @@ app.use(bodyParser.urlencoded({extended: false}));
 // set static path
     // `__dirname` is the directory in which the currently executing script resides
         // using this with path.join is safer than the option that doesn't
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public'))); //code sends the file to the server 
 
-let people = [
-    {
-        name: "Bob",
-        age: 50,
-    },
-    {
-        name: "Jane",
-        age: 45,
-    },
-    {
-        name: "T",
-        age: 30,
-    },
-]
-
-app.get('/', (req, res) => {
-    res.send('hello world');
-});
-
-app.get('/goodbye', (req, res) => {
-    res.send('goodbye world');
-});
-
-app.get('/people', (req, res) => {
-    res.header('Content-Security-Policy', "img-src \'self\'; report-uri /report")
-    res.send("Some sample text!! <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flowchart_showing_Simple_and_Preflight_XHR.svg/768px-Flowchart_showing_Simple_and_Preflight_XHR.svg.png' alt='mixed'>" +
-
-
-    "<img src='http://telstra.com.au/myimg.png'>");
+app.get('/data.js', (req, res) => {
+    const object = logCache.toArray(); //need to make array from linked list
+    
+    res.send(`var logList = ${JSON.stringify(object)};`); // FIX THIS
 });
 
 let unique = 1;
@@ -68,18 +86,18 @@ function createLog(report) {
 
     //id, date, severity
 
-    let severity = 'unknown';
+    let severity = 'UNKNOWN'; //updated on 11/4/19 from 10/4/19 coding session
     if (violatedDirective == 'style-src') {
-        severity = "moderate";
+        severity = "MODERATE";
     } else if (violatedDirective == 'script-src') {
-        severity = "high";
+        severity = "HIGH";
     }
 
-    const newLog = {
+    const newLog = { //updated on 11/4/19 from 10/4/19 coding session
         id:         id,
         severity:   severity,
         reportType: violatedDirective,
-        timestamp:  Math.floor(new Date().getTime() / 1000)
+        timestamp:  new Date().getTime() / 1000,
     };
 
 
@@ -97,7 +115,7 @@ function queueLog(log) {
     while (logCache.length() > 1000) { // sends upto 1000 logs since browser knows
         const oldestLog = logCache.remove(); // takes the step at front of queue 
         console.error('Saving old logs to a file not implemented yet'); //reminds us when we hit queue to fix
-        
+        logWriteStream.write(JSON.stringify(oldestLog));
     }
 
 
@@ -110,6 +128,9 @@ app.post('/*', (req, res) => {
     // this is sent by the browser formatted as a CSP standard report
     // see https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP#Violation_report_syntax //check if you wrote the link correctly
     // you can violate the CSP in browser and observe the network developer tools
+    
+    // OR ... console.log(req.body);
+
     const report = req.body["csp-report"];
 
     const log = createLog(report); // adding the report here and now we need to store it

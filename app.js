@@ -30,12 +30,12 @@ const logger = winston.createLogger({ //updated on 11/4/19 from 10/4/19 coding s
     defaultMeta: { service: 'user-service'},
     transports: [
         //
-        // - Write to all the logs with level `info` and below to `combined.log`
+        // - Write to all the logs with the level `info` and below to `combined.log`
         // - Write all logs error (and below) to `error.log`.
         //
         new winston.transports.File({
             filename: 'reports.log',
-            maxsize: 10000,
+            maxsize: 10000000,
             format: myFormat,
         }),
         new winston.transports.Console({

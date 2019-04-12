@@ -8,6 +8,7 @@ const winston = require('winston'); //updated on 11/4/19 from 10/4/19 coding ses
 const app = express();
 
 const fs = require('fs');
+const checkFilesize = require('./check-filesize-process'); 
 
 const Queue = require('./queue'); // reading from file need to add from data structures folder
 

@@ -26,7 +26,7 @@ module.exports = function () { // JavaScript module.exports which is a unique ob
                 console.error(`exec error: ${error}`);
                 return;
             }*/
-            console.log(`File size: ${stdout}`);
+            console.log(`File size: ${stdout}`); // outputs file size and writes output on terminal
             //console.log(`stderr: ${stderr}`);
         }); 
 }

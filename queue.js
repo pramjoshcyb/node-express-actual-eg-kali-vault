@@ -13,6 +13,7 @@
  * 
 */
 
+/// watch videos on queue
 
 class Queue{
 
@@ -51,6 +52,10 @@ class Queue{
 
         }
 
+        // actual last item is the current new item
+        this.last = newItem;
+    }
+
         remove() {
             const firstItem = this.first;
 
@@ -88,6 +93,5 @@ class Queue{
             return this.qLength;
         }
     }
-}
 
     module.exports = Queue;

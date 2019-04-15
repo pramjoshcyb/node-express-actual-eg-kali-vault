@@ -41,3 +41,36 @@ describe("test add and lookup methods", () => {
 });
 
 
+describe("range queries with no results", () => {
+
+    test("range query of emptry tree", () => {
+        const t = new BST();
+
+        expect(t.range(0, 50)).toEqual([]);
+        expect(t.range('myrange', 'z')).toEqual([]);
+    });
+});
+
+
+test("ranges with empty results", () => {
+    const t = new BST();
+
+    t.insert('myki', '$3.50');
+    t.insert(0, 'xyz');
+    t.insert(-1, 'abc');
+    t.insert(10, 'def');
+    t.insert(-10, 'defg');
+
+    // must be empty no matter what is in BST
+    expect(t.range(0, -1)).toEqual([]);
+    expect(t.range(0, -1)).toEqual([]);
+
+    // will be empty in this case
+    expect(t.range('m', 'mx')).toEqual([]);
+    });
+
+
+
+
+
+

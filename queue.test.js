@@ -62,7 +62,7 @@ describe("test the length method", () => {
 
 
 describe("queue max length of 1 item", () => {
-    const q = new Queue();
+    const q = new Queue(); // item 1 max length and sequence
 
     test("sequence", () => {
         expect(q.remove()).toBe(undefined);
@@ -80,14 +80,14 @@ describe("queue max length of 1 item", () => {
 });
 
 
-describe("remove items in FIFO order", () => {
+describe("remove items in FIFO order", () => { // removes the items in the first in first out order
     const q = new Queue();
 
 
     test("queue has up to 2 items", () => {
         expect(q.remove()).toBe(undefined);
-        q.add('test1');
-        q.add('test2');
+        q.add('test1'); // test item 1
+        q.add('test2'); // test item 2
         expect(q.remove()).toBe('test1');
         expect(q.remove()).toBe('test2');
 

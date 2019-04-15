@@ -88,5 +88,20 @@ describe("range queries with some results", () => {
 });
 
 
+test("ranges with complex results", () => {
+    const t = new BST();
+
+    t.insert('test5', 5);
+    t.insert('test2', 2);
+    t.insert('test3', 3);
+    t.insert('test7', 7);
+    t.insert('test8', 8);
+    expect(t.range('test2', 'test7')).toEqual([2, 3, 5, 7]);
+    expect(t.range('test3', 'test5')).toEqual([3, 5]);  
+    });
+
+
+
+
 
 

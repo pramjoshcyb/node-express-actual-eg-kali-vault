@@ -69,7 +69,23 @@ test("ranges with empty results", () => {
     expect(t.range('m', 'mx')).toEqual([]);
     });
 
+describe("range queries with some results", () => {
 
+    test("ranges with a leaf-only result", () => {
+        const t = new BST();
+
+        // root node
+        t.insert('test', 5);
+        expect(t.range('a', 'z')).toEqual([5]);
+
+        // other leaves
+        t.insert('test2', 2);
+        t.insert('test3', 3);
+        t.insert('test7', 7);
+        t.insert('test8', 8);
+        expect(t.range('test2', 'test3')).toEqual([2, 3]);
+    });
+});
 
 
 

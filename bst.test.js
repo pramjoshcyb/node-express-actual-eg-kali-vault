@@ -1,0 +1,1 @@
+const BST = require('./bst'); //gets the bst.js file linked

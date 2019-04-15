@@ -105,10 +105,10 @@ describe("remove items in FIFO order", () => { // removes the items in the first
 
     test("queue has many items", () => {
         expect(q.remove()).toBe(undefined);
-        q.add('test1');
-        q.add('test2');
-        q.add('test3');
-        q.add('test4');
+        q.add('test1'); // removing test item 1 since queue has many items
+        q.add('test2'); // removing test item 1 since queue has many items
+        q.add('test3'); // removing test item 1 since queue has many items
+        q.add('test4'); // removing test item 1 since queue has many items
 
         expect(q.remove()).toBe('test1');
         expect(q.remove()).toBe('test2');

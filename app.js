@@ -47,7 +47,7 @@ const logger = winston.createLogger({ //updated on 11/4/19 from 10/4/19 coding s
 
 
 
-const logWriteStream = fs.createWriteStream(LOG_FILE_NAME, { flags: 'a', }); //writing to a file, resource: nodejs.org
+//const logWriteStream = fs.createWriteStream(LOG_FILE_NAME, { flags: 'a', }); //writing to a file, resource: nodejs.org
 // FIXABOVE AS it opens before the server finishes starting up
 // process.env.PORT lets the port be set by Heroku
 
@@ -115,8 +115,7 @@ function queueLog(log) {
     logCache.add(log); // adds a log to queue
     while (logCache.length() > 1000) { // sends upto 1000 logs since browser knows
         const oldestLog = logCache.remove(); // takes the step at front of queue 
-        console.error('Saving old logs to a file not implemented yet'); //reminds us when we hit queue to fix
-        logWriteStream.write(JSON.stringify(oldestLog));
+        logger.log(oldestLog.severity, oldestLog); //takes the oldest log and maps severity level
     }
 
 

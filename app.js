@@ -122,14 +122,31 @@ function queueLog(log) {
 }
 // route
 // handles post requests to any url
+process.on('SIGINT', () => {
+    console.log('Received SIGINT. Flushing logs to log file.');
+    while (logCache.length() > 0) {
+        const oldestLog = logCache.remove();
+        logger.log(oldestLog.severity, oldestLog);
+    }
+    logger.end();
+    logger.on('finish', () => {
+        console.log('Exiting');
+        process.exit(0);
+    });
+});
+
+// route 
+// handles post requests to a variety of URLs
 app.post('/*', (req, res) => {
-    console.log(req.body);
+    //console.log(req.body);
 
     // this is sent by the browser formatted as a CSP standard report
     // see https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP#Violation_report_syntax //check if you wrote the link correctly
     // you can violate the CSP in browser and observe the network developer tools
     
     // OR ... console.log(req.body);
+
+    checkFilesize();
 
     const report = req.body["csp-report"];
 

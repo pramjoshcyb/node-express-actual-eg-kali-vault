@@ -26,7 +26,7 @@ describe("test add and lookup methods", () => {
 
     const t = new BST();
 
-    const toAdd = [50, 25, 12, 6, 37, 31, 75, 66, 89, 95];
+    const toAdd = [50, 25, 12,6,37,31,75,66,89,95];
     for (let i = 0; i < toAdd.length; i++) {
         t.insert(toAdd[i], 'test ' + toAdd[i]);
     }
@@ -70,6 +70,7 @@ test("ranges with empty results", () => {
     expect(t.range('m', 'mx')).toEqual([]);
     });
 
+
 describe("range queries with some results", () => {
 
     test("ranges with a leaf-only result", () => {
@@ -100,9 +101,6 @@ test("ranges with complex results", () => {
     expect(t.range('test2', 'test7')).toEqual([2, 3, 5, 7]);
     expect(t.range('test3', 'test5')).toEqual([3, 5]);  
     });
-
-
-
 
 
 

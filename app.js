@@ -25,7 +25,7 @@ const myFormat = winston.format.printf((log) => { //updated on 11/4/19 from 10/4
 });
 
 const logger = winston.createLogger({ //updated on 11/4/19 from 10/4/19 coding session
-    level: 'UNKNOWN',
+    level: 'UNKNOWN', // creation of logs
     levels: levels,
     format: winston.format.json(),
     defaultMeta: { service: 'user-service'},

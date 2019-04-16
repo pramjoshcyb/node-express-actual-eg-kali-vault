@@ -21,7 +21,7 @@ const levels = { //updated on 11/4/19 from 10/4/19 coding session
 };
 
 const myFormat = winston.format.printf((log) => { //updated on 11/4/19 from 10/4/19 coding session
-    return `${log.severity}: ${JSON.stringify(log, null, 4)}\n-------------n`
+    return `${log.severity}: ${JSON.stringify(log, null, 4)}\n--------------\n`;
 });
 
 const logger = winston.createLogger({ //updated on 11/4/19 from 10/4/19 coding session
@@ -54,6 +54,7 @@ const logger = winston.createLogger({ //updated on 11/4/19 from 10/4/19 coding s
 //logWriteSTream.on('open', ) //opens after server 
 
 const port = process.env.PORT || 3000;
+
 app.listen(port, () => {
   console.log(`Server running on ${port}`);
 });
@@ -105,7 +106,7 @@ function createLog(report) {
     return newLog;
 
 }
-
+// logcache to store the most recent 1000 events that have occurred
 const logCache = new Queue(); // creating a queue
 
 // adds a log object to the queue, the oldest logs are deleted and saved to a file 
@@ -130,7 +131,7 @@ process.on('SIGINT', () => {
     }
     logger.end();
     logger.on('finish', () => {
-        console.log('Exiting');
+        console.log('Exiting.');
         process.exit(0);
     });
 });

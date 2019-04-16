@@ -16,3 +16,24 @@ for (let i = 0; i < logList.length; i++) {
     const datetime = new Date(logList[i].timestamp * 1000).toLocaleString();
     logList[i].datetime = datetime;
 }
+
+const bTree = new BST();
+
+function addArrayToBtree(firstIndex, lastIndex) {
+    
+    if (lastIndex < firstIndex) {
+        return;
+    }
+
+    const medianIndex = Math.floor((firstIndex + lastIndex) / 2);
+
+    bTree.insert(logList[medianIndex].timestamp, logList[medianIndex]);
+
+    // add left sub-array to btree
+    addArrayToBtree(firstIndex, medianIndex - 1);
+
+    // now add the right sub-array to the tree
+    addArrayToBtree(medianIndex + 1, lastIndex);
+
+}
+

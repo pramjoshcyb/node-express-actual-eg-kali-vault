@@ -5,7 +5,7 @@ const child_process = require('child_process')
 //  takes the field 5 
 
 
-const firstcmd = "ls -lt reports*.log | sed 's/ */ /g' | cut -d ' ' -f 5 | head -n 1";
+const firstcmd = "ls -lt reports*.log | sed 's/  */ /g' | cut -d ' ' -f 5 | head -n 1";
 // finds the four groups of characters which are lead by spaces (using {4}), and change line with the next group
 
 const secondcmd = "ls -lt reports*.log | sed 's/\\([^ ]* *\\)\\{4\\}\\[^ ]*\\).*/\\2' | cut -d ' ' -f 5 | head -n 1";
@@ -20,7 +20,7 @@ module.exports = function () { // JavaScript module.exports which is a unique ob
 // exports is an object exposed to the module 
 
 // child_process.exec spawns a child process from the child_process file
-    const child = child_process.exec(cmd1, 
+    const child = child_process.exec(firstcmd, 
         (error, stdout, stderr) => { // parameters passed in containing error, standard out and standard error file descriptor
             /* if (error) { // can something go wrong?
                 console.error(`exec error: ${error}`);

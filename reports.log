@@ -1,0 +1,1020 @@
+MODERATE: {
+    "id": 1,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477335.62,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 1,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477375.945,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 1,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477549.787,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 2,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477549.807,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 3,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477549.817,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 4,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555477549.822,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 5,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477550.301,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 6,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477550.31,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 7,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477550.318,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 8,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477550.322,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 9,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555477550.328,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 10,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555477550.339,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 11,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477560.305,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 1,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477595.453,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 1,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477807.446,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 2,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477807.476,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 3,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477807.487,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 4,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555477807.508,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 5,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477808.095,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 6,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477808.114,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 7,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477808.136,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 8,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477808.176,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 9,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555477808.187,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 10,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555477808.198,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 11,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477810.712,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 12,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477810.736,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 13,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477810.752,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 14,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555477810.767,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 15,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477811.028,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 16,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477811.046,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 17,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477811.059,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 18,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477811.07,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 19,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555477811.086,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 20,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555477811.125,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 21,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477823.449,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 1,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477852.143,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 1,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555477949.099,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 1,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478041.729,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 2,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478041.769,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 3,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478041.782,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 4,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555478041.799,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 5,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478042.338,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 6,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478042.355,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 7,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478042.366,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 8,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478042.379,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 9,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555478042.387,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 10,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555478042.396,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 11,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478048.377,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 12,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478048.4,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 13,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478048.42,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 14,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555478048.435,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 15,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478048.68,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 16,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478048.693,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 17,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478048.71,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 18,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478048.719,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 19,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555478048.739,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 20,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555478048.753,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 21,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478065.709,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 1,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478159.222,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 2,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478159.237,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 3,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478159.247,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 4,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555478159.274,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 5,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478159.786,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 6,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478159.797,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 7,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478159.806,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 8,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555478159.811,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 9,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555478159.82,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 10,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555478159.828,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 1,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480099.647,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 1,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480311.574,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 1,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480514.788,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 2,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480514.805,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 3,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480514.816,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 4,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555480514.834,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 5,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480517.255,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 6,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480517.266,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 7,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480517.272,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 8,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480517.282,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 9,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555480517.288,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 10,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555480517.296,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 11,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480526.319,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 12,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480526.34,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 13,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480526.352,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 14,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555480526.398,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 15,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480527.107,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 16,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480527.122,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 17,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480527.133,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 18,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480527.142,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 19,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555480527.154,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 20,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555480527.169,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 21,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480537.338,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 22,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480537.369,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 23,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480537.379,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 24,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555480537.388,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 25,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480537.975,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 26,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480537.99,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 27,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480538.009,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 28,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480538.015,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 29,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555480538.032,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 30,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555480538.047,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 31,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480563.163,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 1,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555480681.649,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+

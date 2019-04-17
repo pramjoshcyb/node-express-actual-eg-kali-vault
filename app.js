@@ -114,7 +114,7 @@ const logCache = new Queue(); // creating a queue
 function queueLog(log) {
 
     logCache.add(log); // adds a log to queue
-    while (logCache.length() > 1000) { // sends upto 1000 logs since browser knows
+    while (logCache.length() > 10) { // sends upto 1000 logs since browser knows
         const oldestLog = logCache.remove(); // takes the step at front of queue 
         logger.log(oldestLog.severity, oldestLog); //takes the oldest log and maps severity level
     }

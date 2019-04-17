@@ -22,6 +22,7 @@ describe("test the lookup method in trivial trees", () => {
         expect(t.lookup(5)).toBe(null);
     });
 
+
 describe("test add and lookup methods", () => {
 
     const t = new BST();
@@ -87,7 +88,6 @@ describe("range queries with some results", () => {
         t.insert('test8', 8);
         expect(t.range('test2', 'test3')).toEqual([2, 3]);
     });
-});
 
 
 test("ranges with complex results", () => {
@@ -101,6 +101,7 @@ test("ranges with complex results", () => {
     expect(t.range('test2', 'test7')).toEqual([2, 3, 5, 7]);
     expect(t.range('test3', 'test5')).toEqual([3, 5]);  
     });
+});
 
 
 

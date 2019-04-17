@@ -14,7 +14,7 @@
  *   remove(k)     removes key k and associated value
  */
 
-class BST { //class definition
+class BST {
 
     constructor() {
         this.root = null;
@@ -34,7 +34,7 @@ class BST { //class definition
         }
 
         let parentNode = null;
-        let currentNode = this.root; 
+        let currentNode = this.root;
         //currentNode.key has some sort of key
         while (currentNode != null) {
 
@@ -98,3 +98,6 @@ class BST { //class definition
     }
 
 }
+
+
+module.exports = BST;

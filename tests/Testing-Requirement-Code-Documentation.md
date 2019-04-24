@@ -30,7 +30,45 @@ COME BACK TO THIS QUESTION - WATCH VIDEO
 **Outline** the standards and methodology you are using:
 **Standards**: What is the benchmark for the suite of tests passing? What will occur if the tests fail?
 
-The benchmark I have set for the suite of tests to pass is to compare the results to a 95% mark. If the 95% of the tests pass then it is a clear indication that the application will not be having any bugs or issues with the front end and the back end of the app. 95% to me is a satisfactory bench mark to set 
+The benchmark I have set for the suite of tests to pass is to compare the results to a 95% mark. If the 95% of the tests pass then it is a clear indication that the application will not be having any bugs or issues with the front end and the back end of the app. 95% to me is a satisfactory bench mark to set because I am leaving only a 5% chance to detect errors in the application. I can be confident that 95% of the time the application will run perfectly. 
+
+If the tests fail then, as developers, we will have to re check the code and ensure that certain measures are taken to prevent future failures from occurring. We will also have to set a new benchmark to ensure that the minimum criteria has been met. 
 
 **Methodology**: What is your method and objective in conducting tests - unit testing, integration testing, performance testing or end to end testing.
+
+Our main method and objective in conducing tests is to perform unit testing. Unit testing consists of individual components of the application to be tested. The purpose of these unit tests in this application is to validate that each unit of the software as mentioned by the criteria. We have to test if the test cases fail, what is the output of each test case and if they are in relation to the set benchmark. 
+
+Unit testing also involves observing any defects introduced due to the change when the unit tests are written. 
+
+
+## T1.4
+**Outline** tests you will run and the tools you will use to conduct the tests, you must:
+- **plan** at least three tests of code
+- **identify** the Javascript testing framework that you will use
+
+The three tests of code that I will be using to test the application will be 
+
+1 - to test if the list will be empty initially and then increasing the length 
+2 - the second test will be to test the maximum length of 1 item in the queue 
+3 - the third test will be to remove the items in the First in First Out order
+
+The JavaScript testing framework that I will be using is Jest. It is designed to ensure correctness of any JavaScript codebase. It lets us write a test with a API that will output the results immediately. 
+
+
+## T1.5
+**Outline** the types and structure of the input data needed to conduct the tests
+
+The types and structure of the input data needed to conduct the tests will be empty tests to check the length of the queue when the list is initially empty, the second test will be to check the sequence when the queue is of maximum length 1 and the third test will be to check the length of the queue when it has items upto 2 and removes the items in FIFO order. 
+
+
+## T1.6
+**Outline** the steps you will take to conduct each test in terms of:
+- **what** the test cases will you use for each test
+- **How** you will document the results
+- **What** you expect the results to be for given test cases
+- **benchmarks** for the test passing 
+
+
+
+
 

@@ -20,4 +20,17 @@ The application should also be tested to prove that it performs effectively and 
 - **what** have you identified to test?
 - **how** much of the application are you testing?
 
-What I have identified to test 
+What I have identified to test in the whole application is to use a file called queue.test.js which tests the application based on queues. The length of the first queue should be empty to check if the logs are entering into the application with a value associated with them. The next test will be increase the length of the queue to check if they are coming in order. I will also be testing the queues when the max length of an item is 1. 
+
+I will be testing only the edge cases of the application and to check if the logs are being entered into the table according to the timestamp.
+COME BACK TO THIS QUESTION - WATCH VIDEO
+
+
+## T1.3
+**Outline** the standards and methodology you are using:
+**Standards**: What is the benchmark for the suite of tests passing? What will occur if the tests fail?
+
+The benchmark I have set for the suite of tests to pass is to compare the results to a 95% mark. If the 95% of the tests pass then it is a clear indication that the application will not be having any bugs or issues with the front end and the back end of the app. 95% to me is a satisfactory bench mark to set 
+
+**Methodology**: What is your method and objective in conducting tests - unit testing, integration testing, performance testing or end to end testing.
+

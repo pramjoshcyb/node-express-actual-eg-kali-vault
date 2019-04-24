@@ -1018,3 +1018,503 @@ MODERATE: {
 }
 --------------
 
+MODERATE: {
+    "id": 1,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551546.269,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 2,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551546.522,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 3,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551546.598,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 4,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555551546.605,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 5,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551550.159,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 6,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551550.167,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 7,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551550.181,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 8,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551550.214,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 9,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555551550.219,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 10,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555551550.298,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 11,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551557.606,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 12,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551557.724,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 13,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551557.74,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 14,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551557.801,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 15,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551557.849,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 16,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555551557.922,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 17,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551557.942,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 18,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551558.006,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 19,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555551558.014,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 20,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555551558.021,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 21,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551565.649,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 22,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551565.655,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 23,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551565.663,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 24,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555551565.681,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 25,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551565.731,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 26,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551565.741,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 27,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551565.772,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 28,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551565.787,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 29,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555551565.817,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 1,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551930.851,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 2,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551931.151,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 3,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551931.49,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 4,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555551931.593,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 5,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551933.316,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 6,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551933.4,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 7,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551933.406,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 8,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555551933.417,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 9,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555551933.443,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 10,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555551933.451,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 11,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555552018.536,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 12,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555552018.557,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 13,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555552018.574,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 14,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555552018.592,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 15,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555552138.792,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 16,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555552138.802,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 17,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555552138.811,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 18,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555552138.816,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 19,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555552138.821,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 20,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1555552138.831,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 21,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1555553276.423,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+

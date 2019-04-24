@@ -88,7 +88,7 @@ function createLog(report) {
 
     //id, date, severity
 
-    let severity = 'UNKNOWN'; //updated on 11/4/19 from 10/4/19 coding session
+    let severity = 'LOW'; //updated on 11/4/19 from 10/4/19 coding session
     if (violatedDirective == 'style-src') {
         severity = "MODERATE";
     } else if (violatedDirective == 'script-src') {

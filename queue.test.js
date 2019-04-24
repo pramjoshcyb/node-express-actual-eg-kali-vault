@@ -172,7 +172,7 @@ describe("toArray()", () => {
 
     });
 
-    test("lots of itmems", () => {
+    test("lots of items", () => {
         const q = new Queue();
         q.add('A');
         q.add('A');

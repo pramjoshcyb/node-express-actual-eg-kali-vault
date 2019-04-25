@@ -1,15 +1,15 @@
-const Queue = require('./queue');
+const Queue = require('./queue'); // use of third party library to get queue file
 
 
 describe("test the length method", () => {
 
-    const q = new Queue();
+    const q = new Queue(); // declared a call to function Queue() and assigned to q
 
     test("list initially empty", () => {
-        expect(q.length()).toBe(0);
+        expect(q.length()).toBe(0); // initial list is of length 0 and is null
     });
 
-    test("add increases length", () => {
+    test("add increases length", () => { // increase length to be in ORDER
         q.add('test');
         expect(q.length()).toBe(1);
         q.add('test');
@@ -20,7 +20,7 @@ describe("test the length method", () => {
         expect(q.length()).toBe(4);
     });
 
-    test("remove decreases length", () => {
+    test("remove decreases length", () => { // decrease length 
         q.remove();
         expect(q.length()).toBe(3);
         q.remove();
@@ -60,9 +60,9 @@ describe("test the length method", () => {
 });
 
 
-describe("queue max length of 1 item", () => {
+describe("queue max length of 1 item", () => { // length of queue is at max length 1
 
-    const q = new Queue();
+    const q = new Queue(); // call to function
 
     test("sequence", () => {
         expect(q.remove()).toBe(undefined);

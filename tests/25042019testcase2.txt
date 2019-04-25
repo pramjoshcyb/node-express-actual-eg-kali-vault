@@ -1,0 +1,12 @@
+
+> exp-example@1.0.0 test /home/pramj/Documents/Node-Assignment-Term3/node-exp-eg
+> jest
+
+PASS ./bst.test.js
+PASS ./queue.test.js
+
+Test Suites: 2 passed, 2 total
+Tests:       11 passed, 11 total
+Snapshots:   0 total
+Time:        1.603s
+Ran all test suites.

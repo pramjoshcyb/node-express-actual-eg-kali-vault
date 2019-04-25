@@ -69,6 +69,43 @@ The types and structure of the input data needed to conduct the tests will be em
 - **benchmarks** for the test passing 
 
 
+The test cases I will be using for each test will be the testing the length of the queue when the list is empty, the other test cases are to check the sequence of the queue when the list has a length of 1 and finally the last test case is to check the length of the queue when the list has 2 items. 
+
+I will be documenting the results of these tests via screenshots of each test case.
+
+The expected result will be a pass for each given test (comment other test and run each one separately) 
+
+Benchmarks for the test passing will be set to a 95% accuracy standard, leaving only a 5% chance of errors arising. 
+
+
+# T2
+**Implement and Execute Your Testing Plan** - you must **review** your testing plan and **ensure** you follow it, you must also **review** the design specification to ensure you are testing features or componenents that are part of the design specification. 
+
+## T2.1
+**Determine** the test environment requirements and create scripts to configure the testing environment and run tests, you must have script(s) which:
+- set test data
+- paths for output of test results
+- run the tests
+- store test results in a file
+
+
+## T2.2 
+**Create** test data and a test suite based on your plan and test cases using a Javascript testing framework. The test suite must:
+- include at least three tests
+- include test data for the tests
+- utilise a JavaScript testing framework
+- be based on your testing plan
+
+You must run the tests twice - after the first test run, review the tests and check for any defects in the test run. 
+
+
+
+
+
+
+
+
+
 
 
 

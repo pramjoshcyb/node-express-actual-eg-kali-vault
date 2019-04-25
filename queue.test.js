@@ -1,10 +1,11 @@
 const Queue = require('./queue');
 
+
 describe("test the length method", () => {
 
-    const q = new Queue(); // declared a constant variable q and assigned new Queue function to the q variable
+    const q = new Queue();
 
-    test("list initally empty", () => {
+    test("list initially empty", () => {
         expect(q.length()).toBe(0);
     });
 
@@ -19,7 +20,6 @@ describe("test the length method", () => {
         expect(q.length()).toBe(4);
     });
 
-
     test("remove decreases length", () => {
         q.remove();
         expect(q.length()).toBe(3);
@@ -32,7 +32,6 @@ describe("test the length method", () => {
         q.remove();
         expect(q.length()).toBe(0);
     });
-
 
     test("add increases length", () => {
         q.add('test');
@@ -45,7 +44,6 @@ describe("test the length method", () => {
         expect(q.length()).toBe(4);
     });
 
-
     test("remove decreases length", () => {
         q.remove();
         expect(q.length()).toBe(3);
@@ -58,11 +56,13 @@ describe("test the length method", () => {
         q.remove();
         expect(q.length()).toBe(0);
     });
+
 });
 
 
 describe("queue max length of 1 item", () => {
-    const q = new Queue(); // item 1 max length and sequence
+
+    const q = new Queue();
 
     test("sequence", () => {
         expect(q.remove()).toBe(undefined);
@@ -79,15 +79,13 @@ describe("queue max length of 1 item", () => {
     });
 });
 
-
-describe("remove items in FIFO order", () => { // removes the items in the first in first out order
+describe("remove items in FIFO order", () => {
     const q = new Queue();
-
 
     test("queue has up to 2 items", () => {
         expect(q.remove()).toBe(undefined);
-        q.add('test1'); // test item 1
-        q.add('test2'); // test item 2
+        q.add('test1');
+        q.add('test2');
         expect(q.remove()).toBe('test1');
         expect(q.remove()).toBe('test2');
 
@@ -105,10 +103,10 @@ describe("remove items in FIFO order", () => { // removes the items in the first
 
     test("queue has many items", () => {
         expect(q.remove()).toBe(undefined);
-        q.add('test1'); // removing test item 1 since queue has many items
-        q.add('test2'); // removing test item 1 since queue has many items
-        q.add('test3'); // removing test item 1 since queue has many items
-        q.add('test4'); // removing test item 1 since queue has many items
+        q.add('test1');
+        q.add('test2');
+        q.add('test3');
+        q.add('test4');
 
         expect(q.remove()).toBe('test1');
         expect(q.remove()).toBe('test2');
@@ -172,7 +170,7 @@ describe("toArray()", () => {
 
     });
 
-    test("lots of items", () => {
+    test("lots of itmems", () => {
         const q = new Queue();
         q.add('A');
         q.add('A');

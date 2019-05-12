@@ -1768,3 +1768,113 @@ MODERATE: {
 }
 --------------
 
+MODERATE: {
+    "id": 1,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1557660832.5,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 2,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1557660832.51,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 3,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1557660832.532,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 4,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1557660832.544,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 5,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1557660832.686,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 6,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1557660832.697,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 7,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1557660832.705,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 8,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1557660832.72,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 9,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1557660832.728,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+HIGH: {
+    "id": 10,
+    "severity": "HIGH",
+    "reportType": "script-src",
+    "timestamp": 1557660832.739,
+    "level": "HIGH",
+    "service": "user-service"
+}
+--------------
+
+MODERATE: {
+    "id": 11,
+    "severity": "MODERATE",
+    "reportType": "style-src",
+    "timestamp": 1557660835.052,
+    "level": "MODERATE",
+    "service": "user-service"
+}
+--------------
+
